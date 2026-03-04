@@ -1,0 +1,41 @@
+<!--
+ * Name: Ndeye Maguette Ndiaye
+ * Date: 03.02.2026
+ * CSC 372-01
+ * Description: This features a Rock, Paper, Scissors game that uses JavaScript callbacks and timers to manage player and computer moves.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<h1>ROCK PAPER SCISSORS GAME, GO!</h1>
+    
+    <section id="player-section">
+        <h2>YOUR THROW</h2>
+        <img src="images/rock.PNG" id="rock-btn" class="throw-choice" alt="Rock">
+        <img src="images/paper.PNG" id="paper-btn" class="throw-choice" alt="Paper">
+        <img src="images/scissors.PNG" id="scissors-btn" class="throw-choice" alt="Scissors">
+    </section>
+
+    <section id="computer-section">
+        <h2>COMPUTER THROW</h2>
+        <img src="images/question-mark.PNG" id="computer-choice" alt="Computer Choice">
+    </section>
+    <section id="score-section">
+        <p>Wins: <span id="wins">0</span> | Losses: <span id="losses">0</span> | Ties: <span id="ties">0</span></p>
+    </section>
+
+    <section id="results-section">
+        <p id="outcome"></p>
+        <button id="reset-btn">Play Again</button>
+    </section>
+    
+</body>
+</html>
